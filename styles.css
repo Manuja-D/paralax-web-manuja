@@ -7,9 +7,16 @@
 body{
     font-family: Varelmo;
 }
-
+header{
+    position: absolute;
+    z-index: 9999;
+    width: 100%;
+    padding: 0.9rem 0;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
 header nav{
-    background-color: red;
     max-width: 1400px;
     margin: 0 auto;
     padding: 0.2rem;
@@ -30,5 +37,8 @@ header ul a{
     padding: 0 1.5rem;
     font-size: 0.83rem;
 }
-/* 
-center the nav bar and add bg images hrll */
+
+main{
+    background-color: rgb(43, 106, 113);
+    height: 100vh;
+}
